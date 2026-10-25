@@ -1128,7 +1128,12 @@
       font-size: 0.75rem;
       color: rgba(255,255,255,0.35);
     }
-    .footer-dev span { color: var(--saffron-light); }
+    .footer-dev a {
+      color: var(--saffron-light);
+      text-decoration: none;
+    }
+    .footer-dev a:hover,
+    .footer-dev a:focus-visible { text-decoration: underline; }
 
     /* ─── RESPONSIVE ─── */
     @media (max-width: 900px) {
@@ -1826,7 +1831,8 @@
           GST Registered · Established 1995 · Surat, Gujarat, India
         </div>
         <div class="footer-dev">
-          Designed &amp; Developed with ❤️ by <span>Mohammed Faizaan Kagzi</span>
+          Designed &amp; Developed with ❤️ by
+          <a href="https://www.linkedin.com/in/mohammedfaizaankagzi/" target="_blank" rel="noopener noreferrer">Mohammed Faizaan Kagzi</a>
         </div>
       </div>
     </div>
